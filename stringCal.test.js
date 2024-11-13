@@ -12,3 +12,8 @@ test('should return the sum of two numbers separated by a comma', () => {
   expect(stringCal("1,5")).toBe(6);
 });
 
+test('should return the sum of any multiple numbers separated by commas', () => {
+  expect(stringCal("1,5,5")).toBe(11);
+});
+
+
