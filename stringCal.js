@@ -1,6 +1,6 @@
 const stringCal = (input) => {
   if (input === "") return 0;
-  return null;
+  return parseInt(input);
 }
 
 module.exports = stringCal;
