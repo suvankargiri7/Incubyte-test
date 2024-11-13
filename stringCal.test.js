@@ -16,4 +16,8 @@ test('should return the sum of any multiple numbers separated by commas', () => 
   expect(stringCal("1,5,5")).toBe(11);
 });
 
+test('should allow new lines between numbers', () => {
+  expect(stringCal("1\n2,3")).toBe(6);
+});
+
 
